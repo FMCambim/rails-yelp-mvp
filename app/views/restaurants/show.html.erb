@@ -31,7 +31,7 @@
   <% end %>
 </ul>
 
-<%= link_to "+ Add new review", new_restaurant_review_path(@restaurant), class: "btn btn-primary"%>
+<%= link_to "+ Add new review", new_restaurant_path(@restaurant), class: "btn btn-primary"%>
 <%= link_to "Delete", review_path, data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
 
 <br>
